@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-theNumber = rand(1..6)
+theNumber = rand(5) + 1
 puts "Guess a number between 1 and 6."
 userGuess = gets.chomp
 if userGuess == theNumber
