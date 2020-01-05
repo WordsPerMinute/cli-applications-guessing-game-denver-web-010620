@@ -8,6 +8,6 @@ if userGuess == theNumber
 elsif userGuess == "exit"
   puts "Goodbye!"
 else
-  puts "Sorry! The computer guessed #{theNumber}"
+  puts "Sorry! The computer guessed #{theNumber}."
 end
 end
